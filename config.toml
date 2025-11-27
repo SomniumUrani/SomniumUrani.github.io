@@ -1,0 +1,44 @@
+# baseURL = "https://tu-usuario.github.io/myWeirdVlog/"
+languageCode = "en"
+title = "My weird vlog"
+theme = "rusty-typewriter"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+
+[params.author]
+    name = "SomniumUrani"
+
+[params.rtwt]
+  sidePane = true
+  countPageItems = 10
+
+[params.rtwt.home]
+  showBio = true
+  showAuthorImg = true
+  sidePaneTags = false
+  showFeatured = false
+  showRecent = true
+  hideRecentWhenFeatured = false
+  countRecent = 10
+
+[params.rtwt.side.home]
+  sidePaneSticky = true
+  taxonomies = []
+  countTaxonomy = 0
+
+[params.rtwt.side.single]
+  sidePaneSticky = true
+  showDetails = true
+  showTableOfContents = true
+  showAttachments = true
+  showRelated = false
+  countRelated = 0
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"

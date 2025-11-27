@@ -1,0 +1,10 @@
+/* Busca la imagen que tenga "avatar" en su nombre */
+img[src*="avatar"] {
+    /* ¡Ajusta estos números al tamaño que quieras! */
+    width: 300px !important;
+    height: 300px !important;
+    
+    /* Esto asegura que el tema no intente achicarla */
+    max-width: none !important;
+    max-height: none !important;
+}
