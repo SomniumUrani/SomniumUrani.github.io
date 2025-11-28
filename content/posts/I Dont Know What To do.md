@@ -1,6 +1,6 @@
 +++
 date = '2025-11-27T20:52:30-06:00'
-draft = true
+draft = false
 title = 'I Dont Know What to Do'
 +++
 # What do I do
